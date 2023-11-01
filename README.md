@@ -21,10 +21,7 @@ Suppose that $f: V_1 \rightarrow V_2$ is bijection
 
 Because every bijection possesses properties ${(u,v)} \in E_1 \iff {f(u),f(v)} \in E_2$ 
 
-Suppose $G_1$ has many edges between V1 and E1. Then $G_2$ should also have multiple edges between f(u) and f(v). But $G_2$ is generic and without many edges. It is a contradiction with bijection.
+For example, there are two graphs G1 and G2, they are isomorphic to one another and they are obviously not completely connected.
+Therefore, it is true that isomorphic graphs do not need to be completely connected.
 
-Additionally,  if we assume that  $G_1$ has n vertices, then $G_2$ should also possess n vertices. But, $G_2$ is plain and has n-5 vertices (where n > 10). Indeed, this leads to a contradiction.
-
-Regarding the loop, if $G_1$ features a loop at vertex v, it follows that $G_2$ must also have a loop at f(v). If $G_2" lacks any loops, it results in a contradiction.
-
-Given that $G_1$ and $G_2 share the same properties as discussed above, a bijection exists between them, leading to $G_1 = (V_1 , E_1)$ being isomorphic to $G_2 = (V_2, E_2).
+Graph: G1        Graph: G2
