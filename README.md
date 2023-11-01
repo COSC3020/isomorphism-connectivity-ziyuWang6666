@@ -14,14 +14,9 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 
 
 ## Answer
-$G_1=(V_1 , E_1)$
-$G_2=(V_2 , E_2)$
+Assuming two graphs $A$ and $B$ are isomorphic they do not need to be completely connected, to know if it is true, to give a simple example, there are two graphs G1 and G2 all have two nodes.
 
-Suppose that $f: V_1 \rightarrow V_2$ is bijection
+Graph A:  a  b        Graph B: c  d
 
-Because every bijection possesses properties ${(u,v)} \in E_1 \iff {f(u),f(v)} \in E_2$ 
-
-For example, there are two graphs G1 and G2, they are isomorphic to one another and they are obviously not completely connected.
+Obviously, they are isomorphic because they have a function of f to go one-to-one and onto. They are obviously not completely connected.
 Therefore, it is true that isomorphic graphs do not need to be completely connected.
-
-Graph: G1        Graph: G2
